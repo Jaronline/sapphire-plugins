@@ -663,6 +663,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jaronline/sapphire-plugins@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@jaronline/sapphire-plugins@workspace:."
+  dependencies:
+    "@commitlint/cli": ^16.2.3
+    "@commitlint/config-conventional": ^16.2.1
+    "@sapphire/eslint-config": ^4.3.4
+    "@sapphire/prettier-config": ^1.4.3
+    "@sapphire/ts-config": ^3.3.4
+    "@types/jest": ^27.4.1
+    "@types/node": ^17.0.8
+    "@typescript-eslint/eslint-plugin": ^5.20.0
+    "@typescript-eslint/parser": ^5.20.0
+    cz-conventional-changelog: ^3.3.0
+    eslint: ^8.14.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.0.0
+    husky: ^8.0.1
+    jest: ^27.5.1
+    jest-circus: ^27.5.1
+    lint-staged: ^12.4.0
+    prettier: ^2.6.2
+    pretty-quick: ^3.1.3
+    standard-version: ^9.3.2
+    ts-jest: ^27.1.4
+    tslib: ^2.4.0
+    typedoc: ^0.22.15
+    typedoc-plugin-mdn-links: ^1.0.6
+    typescript: ^4.6.3
+  languageName: unknown
+  linkType: soft
+
 "@jest/console@npm:^27.5.1":
   version: 27.5.1
   resolution: "@jest/console@npm:27.5.1"
@@ -958,38 +990,6 @@ __metadata:
   checksum: 95ed7d3b67f9a2373936282b47f13f81141ce3a61f26c630feca32f8a711c1b49198673579072310f290dd86c5ddbd39a3ca382ca3800b211318cd19ae226395
   languageName: node
   linkType: hard
-
-"@sapphire/template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@sapphire/template@workspace:."
-  dependencies:
-    "@commitlint/cli": ^16.2.3
-    "@commitlint/config-conventional": ^16.2.1
-    "@sapphire/eslint-config": ^4.3.4
-    "@sapphire/prettier-config": ^1.4.3
-    "@sapphire/ts-config": ^3.3.4
-    "@types/jest": ^27.4.1
-    "@types/node": ^17.0.8
-    "@typescript-eslint/eslint-plugin": ^5.20.0
-    "@typescript-eslint/parser": ^5.20.0
-    cz-conventional-changelog: ^3.3.0
-    eslint: ^8.14.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.0.0
-    husky: ^7.0.4
-    jest: ^27.5.1
-    jest-circus: ^27.5.1
-    lint-staged: ^12.4.0
-    prettier: ^2.6.2
-    pretty-quick: ^3.1.3
-    standard-version: ^9.3.2
-    ts-jest: ^27.1.4
-    tslib: ^2.4.0
-    typedoc: ^0.22.15
-    typedoc-plugin-mdn-links: ^1.0.6
-    typescript: ^4.6.3
-  languageName: unknown
-  linkType: soft
 
 "@sapphire/ts-config@npm:^3.3.4":
   version: 3.3.4
@@ -3506,12 +3506,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.4":
-  version: 7.0.4
-  resolution: "husky@npm:7.0.4"
+"husky@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "husky@npm:8.0.1"
   bin:
     husky: lib/bin.js
-  checksum: c6ec4af63da2c9522da8674a20ad9b48362cc92704896cc8a58c6a2a39d797feb2b806f93fbd83a6d653fbdceb2c3b6e0b602c6b2e8565206ffc2882ef7db9e9
+  checksum: 943a73a13d0201318fd30e83d299bb81d866bd245b69e6277804c3b462638dc1921694cb94c2b8c920a4a187060f7d6058d3365152865406352e934c5fff70dc
   languageName: node
   linkType: hard
 
